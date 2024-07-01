@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 50px;
+}
+h1 {
+    font-size: 58px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: -12px;
+}
+h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+}
+.container {
+    color: white;
+    max-width: 1480px;
+    width: 100%;
+    margin: auto;
+}
+.details {
+    text-align: center;
+    margin-top: 30px;
+}
+.profile {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.time-zone {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.my-goals {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+footer {
+    margin: 50px 0;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4c61af;
+}
+ul.list {
+    list-style-type: circle;
+    font-size: 16px;
+}
+li {
+    margin-top: 15px;
+}
+@media only screen and (max-width: 768px){
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    } 
+
+    h1 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .time-zone {
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .my-goals {
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    h2 {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    footer a {
+        display: block;
+        margin: 15px 0;
+    }
+    body {
+        margin: 20px;
+    }
+}
